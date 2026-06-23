@@ -8,7 +8,7 @@ import {
 import LogConsole from '../components/LogConsole'
 import ProgressBar from '../components/ProgressBar'
 
-const API = '/api'
+const API = 'https://min-project-federal.onrender.com'
 
 function SliderField({ id, label, value, min, max, step = 1, onChange, disabled }) {
   return (

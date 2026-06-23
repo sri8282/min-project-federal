@@ -6,7 +6,7 @@ import LossChart from '../components/charts/LossChart'
 import TrustScoreChart from '../components/charts/TrustScoreChart'
 import ContributionChart from '../components/charts/ContributionChart'
 
-const API = '/api'
+const API = 'https://min-project-federal.onrender.com'
 
 function ChartCard({ title, icon: Icon, iconColor, children, badge }) {
   return (

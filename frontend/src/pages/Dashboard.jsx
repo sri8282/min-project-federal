@@ -8,7 +8,7 @@ import StatCard from '../components/StatCard'
 import LogConsole from '../components/LogConsole'
 import ProgressBar from '../components/ProgressBar'
 
-const API = '/api'
+const API = 'https://min-project-federal.onrender.com'
 
 function ClientBadge({ clientId, type, trustScore }) {
   const isMal = type === 'malicious'
